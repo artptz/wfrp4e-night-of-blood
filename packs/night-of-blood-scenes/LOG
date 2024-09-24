@@ -1,3 +1,23 @@
-2024/09/24-02:48:50.947567 700014262000 Recovering log #38
-2024/09/24-02:48:50.949311 700014262000 Delete type=0 #38
-2024/09/24-02:48:50.949407 700014262000 Delete type=3 #37
+2024/09/24-03:06:35.443489 70000666d000 Recovering log #40
+2024/09/24-03:06:35.444169 70000666d000 Level-0 table #42: started
+2024/09/24-03:06:35.445775 70000666d000 Level-0 table #42: 2694 bytes OK
+2024/09/24-03:06:35.448137 70000666d000 Delete type=3 #39
+2024/09/24-03:06:35.448300 70000666d000 Delete type=0 #40
+2024/09/24-03:06:43.806122 700000d46000 Level-0 table #45: started
+2024/09/24-03:06:43.806160 700000d46000 Level-0 table #45: 0 bytes OK
+2024/09/24-03:06:43.806389 700000d46000 Delete type=0 #43
+2024/09/24-03:06:43.806894 700000d46000 Manual compaction at level-0 from '!scenes!3FUmiZQODgw6UpbH' @ 72057594037927935 : 1 .. '!scenes.walls!xbiWDHu8jQ0jLbmg.yUvIag40raDRcMOn' @ 0 : 0; will stop at '!scenes!xbiWDHu8jQ0jLbmg' @ 581 : 1
+2024/09/24-03:06:43.806907 700000d46000 Compacting 1@0 + 0@1 files
+2024/09/24-03:06:43.807370 700000d46000 Generated table #46@0: 1 keys, 2694 bytes
+2024/09/24-03:06:43.807391 700000d46000 Compacted 1@0 + 0@1 files => 2694 bytes
+2024/09/24-03:06:43.807547 700000d46000 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/09/24-03:06:43.807627 700000d46000 Delete type=2 #42
+2024/09/24-03:06:43.808568 700000d46000 Manual compaction at level-0 from '!scenes!xbiWDHu8jQ0jLbmg' @ 581 : 1 .. '!scenes.walls!xbiWDHu8jQ0jLbmg.yUvIag40raDRcMOn' @ 0 : 0; will stop at (end)
+2024/09/24-03:06:43.808647 700000d46000 Manual compaction at level-1 from '!scenes!3FUmiZQODgw6UpbH' @ 72057594037927935 : 1 .. '!scenes.walls!xbiWDHu8jQ0jLbmg.yUvIag40raDRcMOn' @ 0 : 0; will stop at '!scenes!xbiWDHu8jQ0jLbmg' @ 581 : 1
+2024/09/24-03:06:43.808665 700000d46000 Compacting 1@1 + 1@2 files
+2024/09/24-03:06:43.810087 700000d46000 Generated table #47@1: 253 keys, 35735 bytes
+2024/09/24-03:06:43.810111 700000d46000 Compacted 1@1 + 1@2 files => 35735 bytes
+2024/09/24-03:06:43.810284 700000d46000 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/09/24-03:06:43.810379 700000d46000 Delete type=2 #34
+2024/09/24-03:06:43.810504 700000d46000 Delete type=2 #46
+2024/09/24-03:06:43.811049 700000d46000 Manual compaction at level-1 from '!scenes!xbiWDHu8jQ0jLbmg' @ 581 : 1 .. '!scenes.walls!xbiWDHu8jQ0jLbmg.yUvIag40raDRcMOn' @ 0 : 0; will stop at (end)
